@@ -3,7 +3,7 @@ export const  StoreContext=createContext(null);
 import axios from "axios";
 
 const StoreContextProvider=(props)=>{
-    const url="https://mern-backend-tdk9.onrender.com/";
+    const url="https://mern-backend-tdk9.onrender.com";
     const [token,setToken]=useState("")
     console.log('token is:')
     console.log(token);
